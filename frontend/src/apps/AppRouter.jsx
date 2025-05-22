@@ -20,7 +20,7 @@ const DefaultApp = () => (
   </Localization>
 );
 
-export default function IdurarOs() {
+export default function AppRouter() {
   const { isLoggedIn } = useSelector(selectAuth);
 
 
@@ -32,7 +32,7 @@ export default function IdurarOs() {
   //   const handleStatusChange = () => {
   //     setIsOnline(navigator.onLine);
   //     if (!isOnline) {
-  //       console.log('🚀 ~ useEffect ~ navigator.onLine:', navigator.onLine);
+  //       console.log('~ useEffect ~ navigator.onLine:', navigator.onLine);
   //       notification.config({
   //         duration: 20,
   //         maxCount: 1,

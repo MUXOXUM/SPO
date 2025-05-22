@@ -34,7 +34,7 @@ async function setupApp() {
     };
     await new AdminPassword(AdminPasswordData).save();
 
-    console.log('👍 Admin created : Done!');
+    console.log('Admin created : Done!');
 
     const Setting = require('../models/coreModels/Setting');
 
@@ -49,13 +49,13 @@ async function setupApp() {
 
     await Setting.insertMany(settingFiles);
 
-    console.log('👍 Settings created : Done!');
+    console.log('Settings created : Done!');
 
     const PaymentMode = require('../models/appModels/PaymentMode');
     const Taxes = require('../models/appModels/Taxes');
 
     await Taxes.insertMany([{ taxName: 'Tax 0%', taxValue: '0', isDefault: true }]);
-    console.log('👍 Taxes created : Done!');
+    console.log('Taxes created : Done!');
 
     await PaymentMode.insertMany([
       {
@@ -64,12 +64,12 @@ async function setupApp() {
         isDefault: true,
       },
     ]);
-    console.log('👍 PaymentMode created : Done!');
+    console.log('PaymentMode created : Done!');
 
-    console.log('🥳 Setup completed :Success!');
+    console.log('Setup completed :Success!');
     process.exit();
   } catch (e) {
-    console.log('\n🚫 Error! The Error info is below');
+    console.log('\n Error! The Error info is below');
     console.log(e);
     process.exit();
   }

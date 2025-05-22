@@ -53,10 +53,10 @@ const forgetPassword = async (req, res, { userModel }) => {
   ).exec();
 
   const settings = useAppSettings();
-  const idurar_app_email = settings['idurar_app_email'];
-  const idurar_base_url = settings['idurar_base_url'];
+  const alex_app_email = settings['alex_app_email'];
+  const alex_base_url = settings['alex_base_url'];
 
-  const url = checkAndCorrectURL(idurar_base_url);
+  const url = checkAndCorrectURL(alex_base_url);
 
   const link = url + '/resetpassword/' + user._id + '/' + resetToken;
 
@@ -64,8 +64,8 @@ const forgetPassword = async (req, res, { userModel }) => {
     email,
     name: user.name,
     link,
-    subject: 'Reset your password | idurar',
-    idurar_app_email,
+    subject: 'Reset your password | alex',
+    alex_app_email,
     type: 'passwordVerfication',
   });
 
