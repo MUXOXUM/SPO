@@ -2,7 +2,7 @@
   {
     "settingCategory": "company_settings",
     "settingKey": "company_name",
-    "settingValue": "COMPANY Name",
+    "settingValue": "Пластинки",
     "valueType": "string"
   },
   {
@@ -20,31 +20,31 @@
   {
     "settingCategory": "company_settings",
     "settingKey": "company_address",
-    "settingValue": "25 , Your Company Address",
+    "settingValue": "г. Москва, ул. Суворвская, д14с2",
     "valueType": "string"
   },
   {
     "settingCategory": "company_settings",
     "settingKey": "company_state",
-    "settingValue": "New York",
+    "settingValue": "Московская обл.",
     "valueType": "string"
   },
   {
     "settingCategory": "company_settings",
     "settingKey": "company_country",
-    "settingValue": "United State",
+    "settingValue": "Россия",
     "valueType": "string"
   },
   {
     "settingCategory": "company_settings",
     "settingKey": "company_email",
-    "settingValue": "youremail@example.com",
+    "settingValue": "exampleanswer@gmail.com",
     "valueType": "string"
   },
   {
     "settingCategory": "company_settings",
     "settingKey": "company_phone",
-    "settingValue": "+1 345234654",
+    "settingValue": "+7(943)265-47-34",
     "valueType": "string"
   },
   {
