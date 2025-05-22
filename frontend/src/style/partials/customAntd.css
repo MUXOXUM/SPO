@@ -28,15 +28,39 @@
   pointer-events: none;
 }
 
+.login-form {
+  background: #f8fafd;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(32, 201, 151, 0.10), 0 1.5px 6px rgba(23, 162, 184, 0.08);
+  padding: 32px 28px 18px 28px;
+  max-width: 400px;
+  margin: 48px auto 0 auto;
+}
+
 .login-form button[type='submit'] {
   margin-bottom: 20px;
+  background: linear-gradient(90deg, #20c997 0%, #17a2b8 100%);
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 2px 8px rgba(32, 201, 151, 0.12);
+  font-weight: 600;
+  transition: background 0.2s, box-shadow 0.2s;
 }
+.login-form button[type='submit']:hover, .login-form button[type='submit']:focus {
+  background: linear-gradient(90deg, #38d9a9 0%, #17a2b8 100%);
+  box-shadow: 0 4px 16px rgba(32, 201, 151, 0.18);
+}
+
 .login-form-forgot {
   float: right;
 }
 
 .login-form-button {
   width: 100%;
+}
+
+.login-form .ant-input, .login-form .ant-input-password, .login-form .ant-checkbox-inner {
+  border-radius: 8px !important;
 }
 
 .ant-table-thead > tr > th {
