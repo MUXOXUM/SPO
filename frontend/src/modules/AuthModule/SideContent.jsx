@@ -24,18 +24,9 @@ export default function SideContent() {
           src={logo}
           alt="CRM"
           style={{ margin: '0 0 40px', display: 'block' }}
-          height={63}
-          width={220}
+          height={120}
+          width={420}
         />
-
-        <Title level={1} style={{ fontSize: 28 }}>
-          Free Open Source ERP / CRM
-        </Title>
-        <Text>
-          Accounting / Invoicing / Quote App <b /> based on Node.js React.js Ant Design
-        </Text>
-
-        <div className="space20"></div>
       </div>
     </Content>
   );
