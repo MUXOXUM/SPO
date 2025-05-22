@@ -1,4 +1,4 @@
-module.exports = {
+const lang = {
   sign_up: 'Sign Up',
   manage_your_company_with: 'Manage Your Company With',
   all_in_one_tool: 'All In One Tool',
@@ -206,14 +206,14 @@ module.exports = {
   complete_verification_by_providing_the_code_that_you_received_by_email:
     'Complete Verification By Providing The Code That You Received By Email',
   verify_now: 'Verify Now',
-  dashboard: 'Dashboard',
-  customer: 'Customer',
-  people: 'People',
-  company: 'Company',
+  dashboard: 'DasFFFFFFFF',
+  customer: 'CustFFFFFF',
+  people: 'PeoFFFFFe',
+  company: 'CoFFFFFFny',
   lead: 'Lead',
   offer: 'Offer',
   invoice: 'Invoice',
-  quote: 'Quote',
+  quote: 'QFFFFFFe',
   payment: 'Payment',
   product: 'Product',
   product_category: 'Product Category',
@@ -224,7 +224,7 @@ module.exports = {
   currency: 'Currency',
   payment_mode: 'Payment Mode',
   taxes: 'Taxes',
-  //about: 'About',
+  about: 'About',
   profile_settings: 'Profile Settings',
   app_settings: 'App Settings',
   logout: 'Logout',
@@ -449,4 +449,7 @@ module.exports = {
   enter_code: 'Enter Code',
   offers: 'Offers',
   proforma_invoices: 'quote',
+  search: 'search',
 };
+
+export default lang; 
